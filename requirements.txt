@@ -3,4 +3,5 @@ flask_sqlalchemy
 flask_login
 flask_bcrypt
 flask_security
+email_validator
 gunicorn
