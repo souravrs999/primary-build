@@ -1,0 +1,51 @@
+{% extends 'login_base.html' %} {% from "security/_macros.html" import
+render_field, render_field_with_errors, render_checkbox_field %} {% include
+"security/_messages.html" %} {% block content%} {{ super() }}
+
+<div class="login-form-bg h-100">
+  <div class="container h-100">
+    <div class="row justify-content-center h-100">
+      <div class="col-xl-6">
+        <div class="form-input-content">
+          <div class="card login-form mb-0">
+            <div class="card-body pt-5">
+              <a class="text-center" href="#"> <h4>SIGN IN</h4></a>
+
+              <form
+                class="mt-5 mb-5 login-input"
+                method="POST"
+                action="{{ url_for_security('login') }}"
+                name="login_user_form"
+              >
+                <div class="form-group">{{ login_user_form.hidden_tag() }}</div>
+                <div class="form-group">
+                  {{ render_field_with_errors(login_user_form.email,
+                  class="form-control" ) }}
+                </div>
+                <div class="form-group">
+                  {{ render_field_with_errors(login_user_form.password,
+                  class="form-control") }}
+                </div>
+                {{ render_field(login_user_form.submit, class="btn
+                login-form__btn submit w-100") }}
+                <div class="form-group">
+                  {{ render_checkbox_field(login_user_form.remember) }} 
+                  {{render_field(login_user_form.next) }}
+                </div>
+              </form>
+              <p class="mt-5 login-form__footer">
+                Dont have account?
+                <a href="{{url_for('security.register')}}" class="text-primary"
+                  >Sign Up</a
+                >
+                now
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
