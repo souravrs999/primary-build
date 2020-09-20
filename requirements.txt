@@ -1,7 +1,6 @@
 flask
 flask_sqlalchemy
-flask_login
-flask_bcrypt
+flask_admin
 flask_security
 email_validator
 gunicorn
