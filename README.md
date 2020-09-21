@@ -16,6 +16,16 @@ git clone https://github.com/souravrs999/primary-build.git
 cd primary-build
 source env/bin/activate
 ```
+#### Install Dependencies
+```bash
+flask
+flask_sqlalchemy
+flask_admin
+flask_security
+email_validator
+gunicorn
+```
+
 #### Running the application
 ```bash
 cd app
