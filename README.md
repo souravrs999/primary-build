@@ -7,8 +7,9 @@ Primary build for Oman Expo Project
 Visit the link [app] (https://srs-oman.herokuapp.com/) to see the project
 
 ## Installation
-
-
+'''bash
+git clone https://github.com/souravrs999/primary-build.git
+'''
 
 ### Dependencies
 
