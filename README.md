@@ -35,12 +35,8 @@ cd app
 python main.py
 ```
 
-### Dependencies
-
-#### * Flask-Admin
-#### * Flask-Security
-
 ### Credentials
-
-#### email : admin
-#### pass : admin
+```bash
+emial : admin
+pass : admin
+```
