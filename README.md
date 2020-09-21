@@ -4,7 +4,7 @@ Primary build for Oman Expo Project
 
 
 ### Heroku hosted app
-Visit the link [srs-oman] (https://srs-oman.herokuapp.com/) to see the project
+Visit the link [app] (https://srs-oman.herokuapp.com/) to see the project
 
 ## Installation
 
