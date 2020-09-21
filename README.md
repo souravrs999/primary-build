@@ -2,8 +2,8 @@
 
 ### Dependencies
 
-#### - Flask-Admin
-#### - Flask-Security
+#### * Flask-Admin
+#### * Flask-Security
 
 ### Credentials
 
