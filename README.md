@@ -24,6 +24,9 @@ flask_admin
 flask_security
 email_validator
 gunicorn
+
+pip install -r requirements.txt
+
 ```
 
 #### Running the application
