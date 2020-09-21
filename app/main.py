@@ -113,7 +113,6 @@ def index():
 admin = flask_admin.Admin(
     app,
     'My Dashboard',
-    base_template='my_master.html',
     template_mode='bootstrap3',
 )
 
