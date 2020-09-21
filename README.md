@@ -16,6 +16,11 @@ git clone https://github.com/souravrs999/primary-build.git
 cd primary-build
 source env/bin/activate
 ```
+#### Running the application
+```bash
+cd app
+python main.py
+```
 
 ### Dependencies
 
