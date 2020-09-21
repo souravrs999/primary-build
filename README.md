@@ -2,7 +2,12 @@
 
 ### Dependencies
 
-#### Flask-Admin
-#### Flask-Security
+#### - Flask-Admin
+#### - Flask-Security
 
-### Heroku hosted app : <a href="https://srs-oman.herokuapp.com/">srs-oman</a>
+### Credentials
+
+#### email : admin
+#### pass : admin
+
+#### Heroku hosted app : <a href="https://srs-oman.herokuapp.com/">srs-oman</a>
